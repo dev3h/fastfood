@@ -1,0 +1,9 @@
+:is(.menu-left, .menu-right) li a  {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: color 0.3s ease-in-out;
+}
+:is(.menu-left, .menu-right) li a:hover {
+    color: var(--yellow);
+}
